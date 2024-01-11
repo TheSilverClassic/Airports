@@ -1,0 +1,21 @@
+xcanary test
+xprocess airports takes an empty list and returns an empty list
+xprocess airports takes one airport and returns one airport
+xprocess airports takes two airports and returns two airports
+xprocess airports takes three airports and returns three airports
+xprocess airports by IATA takes one airport and returns one airport #Feedback: please remove
+xprocess airports takes two airports and returns the results after sorting by IATA code.
+xprocess airports takes two airports and returns the results after sorting by Name.
+xprocess airports takes two airports and returns the results after sorting by City.
+xprocess airports takes two airports and returns the results after sorting by State.
+xprocess airports takes three airports and returns the results after sorting by Delay.
+xprocess airports takes three airports and returns the results after sorting by Temperature.
+xprocess airports takes three airports and returns the results after sorting by City and Name conditionally.
+
+xgiven a property "iata", fetch-a-sorter returns the appropriate sort function #Feedback: no need, does not add value
+xgiven a property "name", fetch-a-sorter returns the appropriate sort function
+xgiven a property "city", fetch-a-sorter returns the appropriate sort function
+xgiven a property "state", fetch-a-sorter returns the appropriate sort function #Feedback: no need, does not add value
+xgiven a property "temperature", fetch-a-sorter returns the appropriate sort function #Feedback: no need, does not add value
+xgiven a property "delay", fetch-a-sorter returns the appropriate sort function #Feedback: no need, does not add value
+xgiven a property "city and name", fetch-a-sorter returns the appropriate sort function
